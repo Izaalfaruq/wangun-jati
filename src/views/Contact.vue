@@ -41,7 +41,7 @@
 
 <script setup>
 import PageHeader from "@/components/shared/PageHeader.vue";
-import ContactForm from "@/components/contact/ContactForm.vue";
+// import ContactForm from "@/components/contact/ContactForm.vue";
 import ContactInfo from "@/components/contact/ContactInfo.vue";
 
 </script>
