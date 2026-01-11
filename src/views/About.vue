@@ -31,13 +31,13 @@
               </div>
             </div>
           </div>
-          <div class="relative">
+          <!-- <div class="relative">
             <img
               src="https://images.unsplash.com/photo-1522071820081-009f0129c71c?auto=format&fit=crop&q=80&w=800"
               alt="Team meeting"
               class="rounded-lg shadow-xl"
             />
-          </div>
+          </div> -->
         </div>
       </div>
     </section>

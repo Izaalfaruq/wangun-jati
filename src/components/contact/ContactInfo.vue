@@ -13,6 +13,8 @@
   </template>
   
   <script setup>
+import { useLink } from 'vue-router';
+
   const contactInfo = [
     {
       icon: 'pi pi-map-marker',
@@ -27,7 +29,7 @@
     {
       icon: 'pi pi-phone',
       title: 'Phone',
-      content: '085867565682'
+      content : '085867565682' 
     },
     
   ];
