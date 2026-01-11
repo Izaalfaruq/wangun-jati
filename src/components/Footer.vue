@@ -7,7 +7,7 @@
             <h3 class="font-bold text-xl" style="color: #ebed9e">Wangun Jati</h3>
           </div>
           <p class="text-gray-400">
-            Crafting digital experiences that inspire and innovate.
+            Solusi Infrastruktur Jalan.
           </p>
         </div>
         <div>
@@ -17,7 +17,14 @@
               <router-link
                 to="/services"
                 class="hover:text-blue-400 transition-colors"
-                >Pengaspalan Jalan Baru</router-link
+                >Perencanaan & Desain Jalan</router-link
+              >
+            </li>
+            <li>
+              <router-link
+                to="/services"
+                class="hover:text-blue-400 transition-colors"
+                >Konstruksi & Pembangunan Jalan</router-link
               >
             </li>
             <li>
@@ -25,13 +32,6 @@
                 to="/services"
                 class="hover:text-blue-400 transition-colors"
                 >Perbaikan & Pemeliharaan Jalan</router-link
-              >
-            </li>
-            <li>
-              <router-link
-                to="/services"
-                class="hover:text-blue-400 transition-colors"
-                >Pelapisan Ulang Jalan (Overlay)</router-link
               >
             </li>
           </ul>

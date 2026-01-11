@@ -2,7 +2,6 @@
   <main>
     <PageHeader
       title="Layanan Kami"
-      description="Comprehensive digital solutions tailored to your business needs"
     />
 
     <section class="py-16 bg-white">

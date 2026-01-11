@@ -2,7 +2,6 @@
   <main>
     <PageHeader
       title="Portofolio Kami"
-      description="Explore our latest projects and success stories"
     />
 
     <section class="py-16">

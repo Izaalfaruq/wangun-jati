@@ -16,23 +16,19 @@
   const contactInfo = [
     {
       icon: 'pi pi-map-marker',
-      title: 'Visit Us',
-      content: '123 Creative Street, Design District, CA 90210'
+      title: 'Alamat',
+      content: 'Jl. Kesesi Kaliwadas No.10 RT 04 Rw 03 Kesesi, Pekalongan'
     },
     {
       icon: 'pi pi-envelope',
-      title: 'Email Us',
-      content: 'hello@creative-agency.com'
+      title: 'Email',
+      content: 'wangunjatikonstruksi1@gmail.com'
     },
     {
       icon: 'pi pi-phone',
-      title: 'Call Us',
-      content: '+1 (555) 123-4567'
+      title: 'Phone',
+      content: '085867565682'
     },
-    {
-      icon: 'pi pi-clock',
-      title: 'Working Hours',
-      content: 'Monday - Friday: 9:00 AM - 6:00 PM'
-    }
+    
   ];
   </script>

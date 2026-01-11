@@ -14,39 +14,39 @@
             class="text-5xl md:text-5xl font-bold mb-6 bg-clip-text text-transparent bg-gradient-to-r from-blue-600 to-purple-600"
             style="line-height: 1.25 !important"
           >
-            Membangun Konektivitas
+            Solusi
+
             <span class="relative">
-              <!-- <span
+              <span
                 class="bg-clip-text text-transparent bg-gradient-to-r from-blue-600 to-purple-600"
               >
-                Digital
+                Infrasturktur
               </span>
               <span
                 class="absolute left-0 -bottom-2 w-full h-2 bg-[#f9ff00] rounded-md"
-              ></span> -->
+              ></span>
             </span>
-            Mendorong Kemajuan Bangsa
+            Jalan
           </h1>
           <p class="text-xl text-gray-600 mb-8">
-            Transform your brand with cutting-edge web solutions that captivate
-            and convert.
+            Kami menghadirkan solusi infrastruktur jalan yang terukur dan
+            berstandar tinggi. Setiap proyek dijalankan dengan manajemen
+            profesional untuk memastikan kualitas dan keandalan jangka panjang.
           </p>
-          <div class="flex gap-4">
-            <!-- "Get Started" Button with #EBED9E Background -->
+          <!-- <div class="flex gap-4">
             <Button
               @click="navigateToSection('services')"
               label="Get Started"
               icon="pi pi-arrow-right"
               class="p-button-rounded p-button-lg custom-get-started"
             />
-            <!-- "Our Work" Button with #5A58E9 Background -->
             <Button
               @click="navigateToSection('portfolio')"
               label="Our Work"
               icon="pi pi-images"
               class="p-button-rounded p-button-lg custom-our-work"
             />
-          </div>
+          </div> -->
         </div>
         <!-- Right Illustration -->
         <div class="relative">
@@ -77,7 +77,7 @@
             v-bind="service"
           />
         </div>
-        <div class="text-center mt-12">
+        <!-- <div class="text-center mt-12">
           <router-link to="/services">
             <Button
               label="Lihat Semua Layanan"
@@ -85,7 +85,7 @@
               class="p-button-rounded"
             />
           </router-link>
-        </div>
+        </div> -->
       </div>
     </section>
 
@@ -100,7 +100,7 @@
             v-bind="project"
           />
         </div>
-        <div class="text-center mt-12">
+        <!-- <div class="text-center mt-12">
           <router-link to="/portfolio">
             <Button
               label="Lihat Semua Proyek"
@@ -109,7 +109,7 @@
               class="p-button-rounded"
             />
           </router-link>
-        </div>
+        </div> -->
       </div>
     </section>
 
@@ -119,14 +119,19 @@
         class="container mx-auto px-4 grid grid-cols-1 md:grid-cols-2 gap-12 items-center"
       >
         <div>
-          <h2 class="text-3xl font-bold mb-6">Who We Are</h2>
+          <h2 class="text-3xl font-bold mb-6">Siapa Kami?</h2>
           <p class="text-gray-600 mb-8">
-            We're a team of passionate creators and innovators dedicated to
-            transforming ideas into impactful digital solutions.
+            Kami adalah perusahaan konstruksi yang berfokus pada pengembangan
+            dan peningkatan infrastruktur jalan secara profesional dan
+            berstandar tinggi. Dengan keahlian teknis yang kuat, manajemen
+            proyek yang terstruktur, serta komitmen terhadap kualitas, kami
+            menghadirkan solusi rekayasa jalan yang aman, efisien, dan
+            berkelanjutan untuk mendukung pertumbuhan dan konektivitas berbagai
+            sektor.
           </p>
           <router-link to="/about">
             <Button
-              label="Learn More"
+              label="Lihat Lebih Lanjut"
               icon="pi pi-arrow-right"
               severity="secondary"
               class="p-button-rounded"
@@ -149,14 +154,10 @@
       class="py-20 bg-gradient-to-r from-blue-600 to-purple-600 text-white"
     >
       <div class="container mx-auto px-4 text-center">
-        <h2 class="text-4xl font-bold mb-6">Ready to Start Your Project?</h2>
-        <p class="text-xl mb-8 max-w-2xl mx-auto">
-          Let's create something amazing together. Get in touch with our team
-          today.
-        </p>
+        <h2 class="text-4xl font-bold mb-6">Jika Anda Membutuhkan Jasa Kami</h2>
         <router-link to="/contact">
           <Button
-            label="Contact Us"
+            label="Kontak Kami"
             icon="pi pi-send"
             class="p-button-rounded p-button-lg p-button-outlined"
           />

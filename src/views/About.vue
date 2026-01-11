@@ -1,24 +1,26 @@
 <template>
   <main>
-    <PageHeader
-      title="Tentang Kami"
-      description="We're a team of passionate creators and innovators"
-    />
+    <PageHeader title="Tentang Kami" />
 
     <section class="py-16 bg-white">
       <div class="container mx-auto px-4">
         <div class="grid grid-cols-1 md:grid-cols-2 gap-16 items-center">
           <div>
-            <h2 class="text-3xl font-bold mb-6">Our Story</h2>
+            <!-- <h2 class="text-3xl font-bold mb-6">Our Story</h2> -->
             <p class="text-gray-600 mb-4">
-              Founded in 2020, we've been at the forefront of digital
-              innovation, helping businesses transform their online presence and
-              achieve remarkable growth.
+              Kami adalah perusahaan konstruksi jalan yang berfokus pada
+              pekerjaan pengaspalan berkualitas tinggi untuk mendukung
+              kelancaran mobilitas dan aktivitas ekonomi. Dengan tenaga ahli
+              berpengalaman serta peralatan modern, kami memastikan setiap
+              proyek dikerjakan secara presisi, efisien, dan sesuai standar
+              teknis yang berlaku.
             </p>
             <p class="text-gray-600 mb-6">
-              Our team combines creativity with technical expertise to deliver
-              solutions that not only look great but drive real business
-              results.
+              Kami berkomitmen menghadirkan permukaan jalan yang kuat, aman, dan
+              tahan lama melalui pemilihan material yang tepat serta pengelolaan
+              proyek yang sistematis. Fokus kami tidak hanya pada penyelesaian
+              pekerjaan, tetapi juga pada keberlanjutan dan kepuasan klien
+              sebagai dasar kemitraan jangka panjang.
             </p>
             <div class="grid grid-cols-2 gap-8">
               <div v-for="stat in stats" :key="stat.label" class="text-center">
